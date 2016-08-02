@@ -1198,6 +1198,11 @@
             var dialog = new BootstrapDialog({
                 title: 'Stack trace',
                 message: $scope.stackTraceEl,
+                closable: true,
+                closeByBackdrop: false,
+                closeByKeyboard: false,
+                draggable: false,
+                autodestroy: false,
                 buttons: [{
                     label: $scope.msg('task.close'),
                     cssClass: 'btn btn-default',
