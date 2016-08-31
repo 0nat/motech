@@ -4,3 +4,5 @@ jdk:
 - oraclejdk8
 
 script: mvn clean verify -PIT
+
+sudo: false
