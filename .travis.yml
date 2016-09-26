@@ -10,6 +10,7 @@ install: true
 script:
   - sudo chmod +x ./run_build.sh
   - ./run_build.sh
+  - ./performance_test.sh
 
 cache:
   directories:
