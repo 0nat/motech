@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 set -e
 
 PERF_DIR=./platform/mds/mds-performance-tests
