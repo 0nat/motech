@@ -27,4 +27,3 @@ notifications:
       - travis-test-maniek@googlegroups.com
     on_success: never
     on_failure: always
-    
