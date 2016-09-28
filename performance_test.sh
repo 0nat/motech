@@ -9,6 +9,7 @@ PERF_RES_DIR=$PERF_DIR/src/test/resources
 TRESHOLDS_FILE=/tmp/tresholds.csv
 
 touch $TRESHOLDS_FILE
+touch $PERF_DIR/target/performanceTestResult.log
 
 cat > $TRESHOLDS_FILE <<EOL
 MdsStressIT,stressTestCreating,40000

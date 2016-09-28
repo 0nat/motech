@@ -13,7 +13,7 @@ install: true
 
 script:
   - sudo chmod +x ./run_build.sh
-  - travis_wait ./run_build.sh
+  - ./run_build.sh
   - sudo chmod +x ./performance_test.sh
   - ./performance_test.sh
 
