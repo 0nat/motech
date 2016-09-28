@@ -16,7 +16,6 @@ script:
   - travis_wait ./run_build.sh
   - sudo chmod +x ./performance_test.sh
   - ./performance_test.sh
-  - cat ./platform/mds/mds-performance-tests/target/performanceTestResult.log
 
 cache:
   directories:

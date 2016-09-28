@@ -23,4 +23,6 @@ RESULT=$?
 
 rm -f $TRESHOLDS_FILE
 
+cat $PERF_DIR/target/performanceTestResult.log
+
 exit $RESULT
