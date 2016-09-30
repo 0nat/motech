@@ -92,5 +92,9 @@ while read p; do
     fi
 done < $1
 
+ls $PERFORMANCE_HISTORY_DIR
+echo $PERFORMANCE_HISTORY_DIR"/"$CLASS_NAME"#"$METHOD_NAME".log"
+echo "TEST"
+
 exit $EXIT_STATUS
 
