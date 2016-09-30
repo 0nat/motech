@@ -20,7 +20,7 @@ MdsStressIT,stressTestDeleting,250000
 MdsDiskSpaceUsageIT,testEudeDiskSpaceUsage,25
 EOL
 
-$PERF_RES_DIR/performanceCheck.sh -d $PERF_DIR $TRESHOLDS_FILE
+$PERF_RES_DIR/performanceCheck.sh -d ~/perf $PERF_DIR/target/performanceTestResult.log $TRESHOLDS_FILE
 RESULT=$?
 
 rm -f $TRESHOLDS_FILE
