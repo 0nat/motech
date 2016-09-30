@@ -92,5 +92,7 @@ while read p; do
     fi
 done < $1
 
+ls -l $PERFORMANCE_HISTORY_DIR
+
 exit $EXIT_STATUS
 
